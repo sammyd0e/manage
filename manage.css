@@ -50,3 +50,231 @@ nav {
     border-radius: 20px;
     border: 0px;
 }
+#section-1{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 40px 70px 100px;
+
+}
+.section-1-text{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+
+}
+.section-1-text h1{
+    font-size: 40px;
+    color:var(--dark-blue);
+    font-weight:(--Weight3);
+    width: 100%;
+
+;
+}
+.section-1-text p{
+    font-size: var(---Font-size);
+    color: var(--Dark-Grayish-Blue);
+
+
+}
+.section-1-img img{
+    width: 100%;
+
+
+}
+
+#section-2{
+    border: 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+     margin: 40px,70px,100px;
+    /* border: 2px solid violet; */
+    padding: 15px;
+}
+.first-part, .second-part{
+    width: 100%;
+    
+}
+.first-part{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.first-part h1{
+    color: var(--dark-blue);
+    font-size: 40px;
+    font-weight: var(--Weight3);
+}
+.second-part{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    
+}
+.no-1, .no-2, .no-3 {
+    display: flex;
+    flex-direction:row;
+    align-items: start;
+    gap: 20px;
+    
+}
+.noo-1,.noo-2, .noo-3 {   
+    background-color: var(--bright-red);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px;
+}
+.para{
+    font-size: var(--Weight1);
+    color: var(--Dark-Grayish-Blue);
+}
+.h-3, .h-4, .h-5{
+    /* border: 2px solid black; */
+    /* width: 70%; */
+    padding-top: 10px;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: solid var(--Weight1);
+}
+.what{
+    /* border: 2px solid darkblue; */
+    padding-left: 35%;
+    font-size: 40px;
+    font-weight: var(--Weight3);
+    color: var(--dark-blue);
+    margin-bottom:70px ;
+    margin-top: 20px;
+    
+}
+#section-3{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 50px;
+    
+    
+}
+#section-3 h1{
+    font-size: 40px;
+    color: var(--dark-blue);
+    text-align: center;
+}
+#section-3 h3{
+    color: var(--dark-blue);
+    font-size: 40px;
+    padding: 20px;
+}
+.card-helpers{
+/* border: 2px solid black; */
+background-color:var(--Very-Light-Gray);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap : 15px;
+padding: 10px;
+}
+.img-1, .img-2, .img-3{
+    width: 30%;
+}
+.sect-3-div-p-helper{
+    text-align: center;
+    color:var(--Dark-Grayish-Blue)
+    var(--Dark-Grayish-Blue);
+    font-size: var(---Font-size);   
+}
+.sect-3-h3-helper{
+color: var(--Very-Dark-Blue);
+font-size: 9000px;
+}
+#get-started-inverse{
+    background-color:#fff;
+    padding: 5px 15px;
+    border-radius:20px;
+    border: Opx;
+    color:var(--bright-red)
+    
+    
+}
+.sect-3-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    padding: 20px;
+    
+}
+#section-4{
+background-color:var(--bright-red);
+font-size: 40px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin:50px 0 0 0;
+padding: 50px 00px 50px 130px;
+}
+
+#section-4 h1 {
+    color: #fff;
+    font-weight: var(--Weight3);
+    width: 50%;
+}
+#last-section{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.last-section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 70px;
+    padding: 50px;
+      
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px; 
+}
+.listing-new{
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    list-style-type: none;
+    text-decoration: none;
+    gap: 15px;
+    padding: 50px;
+
+}
+.listing-new :hover{
+    color: var(--bright-red);
+    text-decoration: none;
+}
+.placeholder{
+    padding: 20px;
+    border-radius:30%;
+    
+}
+#go{
+    border-radius: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--bright-red);
+    color: #fff;
+    font-weight: var(--Weight2);
+}
+.foot-2{
+    padding: 50px;
+
+}
